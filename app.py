@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def home():
-    return "Hello World! I'm using Flask."
+    return "Hello World! I'm using Flask. テスト"
 #add 1
 #add 2 私参上！！！
 #add 3
